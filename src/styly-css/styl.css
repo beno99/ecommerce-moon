@@ -2,20 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
-    font-family: 'museoModerno', sans-serif;
+}
+body{
+    font-family: 'MuseoModerno', sans-serif;
+    background-color: #827F85;
 }
 #header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 80px;
+    padding: 0px 75px 30px 116px;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 #navbar{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 10px ;
 }
 
 #navbar li{
@@ -23,9 +30,14 @@
     padding: 0 20px;
     position: relative;
 }
+
+.logo{
+    margin-top: 10px;
+}
+
 #navbar li a {
     text-decoration: none ;
-    font-size: 16px;
+    font-size: 28px;
     font-weight: 600;
     color: white;
     transition: 0.3s ease;
@@ -50,6 +62,157 @@
     background-image: url(./Group\ 3.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 150vh;
     width: 100%;
+   
+}
+#lookbook {
+    text-decoration: none;
+}
+
+.informacoes{
+    padding: 190px 80px 23px 115px ;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 29px;
+    color: #D7D6D9;
+    font-family: 'Poppins', sans-serif ;
+}
+h2 {
+
+ font-size: 65px ;
+ width: 50%;
+ font-weight: 1000;
+ line-height: 100.5%;
+}
+
+#trade{
+    margin-bottom: 6px;
+    font-weight: 500px;
+}
+
+p{
+  margin-top: 43px;
+
+}
+
+#hero button{
+    background-image: url(./button.png);
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    padding: 15px 59px 13px 59px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 5% ;
+}
+
+h1{
+    text-align: center;
+    color: #2D2D2D;
+    margin-top: 4%;
+    font-size: 40px;
+}
+
+.section-p1{
+    padding: 40px 80px;
+    background-color: #827F85;
+}
+
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#feature .look-book{
+    width: 292px;
+    text-align: center;
+    padding: 11px 15px;
+    margin: 15px 0;
+    background-color:transparent;
+    border-color: 2px solid white;
+    border-radius: 20px;
+}
+#feature .look-book img{
+    width: 93%;
+    margin-bottom: 10px;
+} 
+
+#feature .look-book:hover {
+    box-shadow: 10px 10px 54px rgba(59, 58, 58, 0.63);
+}
+
+.marcas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 80px 30px 116px;
+}
+#h2produtos{
+    color: #2D2D2D;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.pro-conteiner{
+    /* text-align: center;
+    margin-top: -80px; */
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#produtos1 .pro{
+    width: 4%;
+    min-width: 230px;
+    padding: 10px 12px;
+    border-radius: 20px;
+    background-color: #C7B9B9;
+    margin: 0%;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0 , 0.2);
+    transition: 0.2s ease;
+
+}
+
+#produtos1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.404);
+}
+
+#produtos1 .pro .camisa {
+    width: 100%;
+    border-radius: 20px;
+
+} 
+
+.des{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 165.5%;
+    font-family:'Poppins', sans-serif  ;
+    font-style: normal;
+    color:  #2D2D2D;
+}
+
+#produtos1 .pro .des h4{
+    font-size: 18px;
+    margin-bottom: -45px;
+    padding-top: 7px;
+}
+
+
+#produtos1 .pro .des h3{
+    font-style: normal;
+    padding-top: 3px;
+}
+
+#produtos1 .pro .des a{
+    padding-top: 5px;
 }
